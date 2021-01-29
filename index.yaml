@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  cert-manager-issuer:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-01-29T11:57:05.4174116+01:00"
+    description: A Helm chart for cert-manager issuer
+    digest: 53b07c19abfbb576d0a082d8e27ed035350d82459fb82ffab5975ea501f0757a
+    maintainers:
+    - email: developer@otter-blitz-studio.de
+      name: Otter Blitz Studio
+    name: cert-manager-issuer
+    type: application
+    urls:
+    - charts/cert-manager-issuer-0.1.0.tgz
+    version: 0.1.0
+  gcp-nfs-pv:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-01-29T11:57:05.4194119+01:00"
+    description: A Helm chart for a nfs server on google cloud platform and a pv
+    digest: d79cab56232ce5af34db2ce947f25402be38536ebe498415343ef60587bd0e42
+    maintainers:
+    - email: developer@otter-blitz-studio.de
+      name: Otter Blitz Studio
+    name: gcp-nfs-pv
+    type: application
+    urls:
+    - charts/gcp-nfs-pv-0.1.0.tgz
+    version: 0.1.0
+  secure-distributed-nakama:
+  - apiVersion: v2
+    appVersion: 2.14.0
+    created: "2021-01-29T11:57:05.420411+01:00"
+    description: A Helm chart for secure and distributed Nakama gameserver
+    digest: 001fe508df4001df8be50960066efe550746c419cee63511a62a2f81c016db2a
+    maintainers:
+    - email: developer@otter-blitz-studio.de
+      name: Otter Blitz Studio
+    name: secure-distributed-nakama
+    type: application
+    urls:
+    - charts/secure-distributed-nakama-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-29T11:57:05.4164119+01:00"
