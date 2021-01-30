@@ -5,9 +5,12 @@ Those charts shall decrease complexity for deploying a distributed and secure [N
 
 ## Repo
 
+Before you can install any of the helm chats you need to add this repo:
+
 ```
 helm repo add obs https://otterblitzstudio.github.io/helm-charts/
 ```
+You cloud have to update the repo afterwards:
 ```
 helm repo update
 ```
