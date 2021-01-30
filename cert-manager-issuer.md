@@ -23,6 +23,6 @@ This helm chart creates an Issuer or ClusterIssuer for [cert-manager](https://ce
 ## Template
 
 ```
-helm install cert-manager-issuer obs/cert-manager-issuer --namespace cert-manager  --set email=xyz@provider.com 
+helm install cert-manager-issuer obs/cert-manager-issuer -n cert-manager  --set email=xyz@provider.com 
 
 ```

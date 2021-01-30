@@ -27,6 +27,6 @@ gcloud compute disks create --size=10GB --zone=us-east1-b <disk-name>
 ## Template
 
 ```
-helm install <project-name>-data -namespace <project-name> obs/gcp-nfs-pv --set diskName=<disk-name>
+helm install <project-name>-data  obs/gcp-nfs-pv -n <project-name> --set diskName=<disk-name>
 
 ```
