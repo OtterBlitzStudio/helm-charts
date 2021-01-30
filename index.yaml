@@ -3,7 +3,7 @@ entries:
   cert-manager-issuer:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-01-30T16:08:39.2372768+01:00"
+    created: "2021-01-30T16:14:07.8763703+01:00"
     description: A Helm chart for cert-manager issuer
     digest: 3f306967b6c3e377c5f834049bb750c7f89f93c0381deeb2f35699d62cd5b0e6
     maintainers:
@@ -17,7 +17,7 @@ entries:
   gcp-nfs-pv:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-01-30T16:08:39.2372768+01:00"
+    created: "2021-01-30T16:14:07.8763703+01:00"
     description: A Helm chart for a nfs server on google cloud platform and a pv
     digest: 3c99845092f409b621166a9cbb19aa11db4881dbff5808c8f0357a213b84688c
     maintainers:
@@ -31,9 +31,9 @@ entries:
   secure-distributed-nakama:
   - apiVersion: v2
     appVersion: 2.14.0
-    created: "2021-01-30T16:08:39.2382748+01:00"
+    created: "2021-01-30T16:14:07.8773686+01:00"
     description: A Helm chart for secure and distributed Nakama gameserver
-    digest: 6dbba7be580cfd4772d09135b9c07b6516cc935131368611fd640c0fc80e7b5b
+    digest: b35d54f93738f1b7b32aa1ed63d9f4ac2dd7e9b01db500bc8b4be5ac81652546
     maintainers:
     - email: developer@otter-blitz-studio.de
       name: Otter Blitz Studio
@@ -42,4 +42,4 @@ entries:
     urls:
     - charts/secure-distributed-nakama-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-30T16:08:39.2362758+01:00"
+generated: "2021-01-30T16:14:07.8753681+01:00"
