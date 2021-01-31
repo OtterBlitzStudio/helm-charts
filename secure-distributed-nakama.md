@@ -12,7 +12,7 @@ This helm chart creates the Nakama gameserver with all resources (deployment, se
 | - | - | :-: | :-: |
 | ingress.serviceHost | Your url/DNS which you own and where the server should be reachable |  | X |
 | pvc.name | The name of your persistant volume which needs to have ReadWriteMany as accessModes, check [GCP NFS PV](gcp-nfs-pv-md) for more information. |  | X |
-| ingress.beta | If set to `true` you use Ingress for kubernetes version < 1.18.0 | false |  |
+| ingress.beta | If set to `true` you use Ingress for kubernetes version < 1.18.0 | true |  |
 | ingress.cluster | If you are using cert-manager ClusterIssuer it is `true`, for Issuer `false` | true |  |
 | ingress.class | Your ingress you want to use | nginx |  |
 | ingress.adminHost | Your url/DNS which you own and where the admin UI should be reachable | false |  |
